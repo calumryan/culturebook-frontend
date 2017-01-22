@@ -1,8 +1,8 @@
 ---
 hidden: true
-title: Bits, the front-end component library for 24 ways
+title: Pablo, front-end component library developed for Culturebook
 ---
-You are viewing the front-end component library for 24 ways. It is powered by [Fractal](http://fractal.build), a tool that enables the rapid development of components, templates and pages.
+You are viewing the front-end component library for Culturebook. It is powered by [Fractal](http://fractal.build), a tool that enables the rapid development of components, templates and pages.
 
 ### Component categories
 
@@ -15,6 +15,4 @@ You are viewing the front-end component library for 24 ways. It is powered by [F
 
 ### Source code
 
-The [source code is available on GitHub](https://github.com/24ways/frontend). See the [README](https://github.com/24ways/frontend/blob/master/README.md) for installation instructions.
-
-<iframe src="https://ghbtns.com/github-btn.html?user=24ways&repo=frontend&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+The [source code is available on GitHub](https://github.com/culturebook/pablo). See the [README](https://github.com/culturebook/pablo/blob/master/README.md) for installation instructions.

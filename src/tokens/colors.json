@@ -1,13 +1,13 @@
 {
   "primary": {
-    "light": "#f04",
-    "base": "#c02",
-    "dark": "#601"
+    "light": "#b11f29",
+    "base": "#b11f29",
+    "dark": "#b11f29"
   },
   "secondary": {
-    "light": "#3be",
-    "base": "#269",
-    "dark": "#257"
+    "light": "#b11f29",
+    "base": "#b11f29",
+    "dark": "#b11f29"
   },
   "neutral": {
     "lightest": "#efeff0",

@@ -8,12 +8,12 @@
     "library"
   ],
   "homepage": "http://pablo.culturebook.co.uk",
-  "bugs": "https://github.com/calumryan/pablo/issues",
+  "bugs": "https://github.com/culturebook/pablo/issues",
   "license": "SEE LICENSE IN LICENSE",
   "author": "Calum Ryan",
   "repository": {
     "type": "git",
-    "url": "https://github.com/calumryan/pablo.git"
+    "url": "https://github.com/culturebook/pablo.git"
   },
   "main": "fractal.js",
   "scripts": {
