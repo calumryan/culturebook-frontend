@@ -1,4 +1,4 @@
-# Pablo: based on Fractal a front-end component library developed for Culturebook
+# Pablo: front-end component library developed for Culturebook
 
 ## Requirements
 Pablo is built upon [24 Ways](https://24ways.org/) component 2016 library, which itself was built upon [Fractal](https://github.com/frctl/fractal), a tool that enables the rapid development of components, templates and pages. Fractal uses a number of ES6 features, so this project requires [Node.js](https://nodejs.org/) v4.0+ to be installed locally. A global install of Gulp is also recommended.
