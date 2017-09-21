@@ -1,0 +1,31 @@
+<section class="core-search">
+
+  <div class="core-search__selector">
+    <label for="core-search__opt1" class="c-button c-button--options">Exhibits
+    <input id="core-search__opt1" type="radio" name="search_type" value="exhibits" class="u-hidden">
+    </label>
+    <label for="core-search__opt2" class="c-button c-button--options c-button--unselected">Museums
+    <input id="core-search__opt2" type="radio" name="search_type" value="museums" class="u-hidden">
+    </label>
+  </div>
+
+  <form class="core-search__form" role="search" id="search" action="/pages/search/">
+    <fieldset class="core-field">
+      <legend class="u-hidden">Search Culturebook</legend>
+      <label class="u-hidden" for="q">Keywords</label>
+      <input class="core-field__input" type="search" id="q" name="q" placeholder="Exhibit name, feature or keyword&#8230;"/>
+      <button class="c-button c-button--submit" type="submit">Search</button>
+    </fieldset>
+  </form>
+
+  <aside class="core-search__other">
+    <h3>Other search options</h3>
+    <ul>
+      <li><a href="">Collections &raquo;</a></li>
+      <li><a href="">Store &raquo;</a></li>
+      <li><a href="">Culture 360 &raquo;</a></li>
+      <li><a href="">Events &raquo;</a></li>
+    </ul>
+  </aside>
+
+</section>

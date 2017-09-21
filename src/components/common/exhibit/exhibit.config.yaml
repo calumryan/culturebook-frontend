@@ -1,0 +1,19 @@
+context:
+  title: "Rembrandt Harmenszoon van Rijn"
+  src: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Rembrandt_van_Rijn_-_Self-Portrait_-_Google_Art_Project.jpg/440px-Rembrandt_van_Rijn_-_Self-Portrait_-_Google_Art_Project.jpg"
+  tabs:
+    - title: "About"
+      id: cb-about
+      status: show
+      content: "<h2>Leiden, 15 July 1606 – Amsterdam, 4 October 1669</h2><p>He is generally considered one of the greatest painters and printmakers in European art history, and the most important in Dutch history. His contributions to art came in a period that historians call the Dutch Golden Age.</p><h3>Personal life</h3><p>He went to the University Leiden but he liked painting better so he became a painter. In 1631 he went to live in Amsterdam, because people there had heard of him and wanted him to paint their portraits. He married a woman called Saskia van Uylenberg in 1634. They had four children, but three of them died very young. Only their fourth child, Titus, who was born in 1641, survived into adulthood. Saskia died in 1642 soon after Titus's birth, probably from tuberculosis.</p>"
+    - title: "More"
+      id: cb-more
+      content: "Content"
+    - title: "Media"
+      id: cb-media
+      status: hidden
+      content: "Content"
+    - title: "Contribute <sup>+</sup>"
+      id: cb-contribute
+      status: hidden
+      content: "Content"

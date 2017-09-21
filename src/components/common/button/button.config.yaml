@@ -1,0 +1,22 @@
+collated: true
+variants:
+- name: default
+  context:
+    label: Button
+- name: disabled
+  context:
+    label: Disabled button
+    disabled: true
+- name: unselected
+  context:
+    label: Unselected button
+    mods: [unselected]
+- name: submit
+  context:
+    label: Submit button
+    mods: [submit]
+- name: more
+  context:
+    label: Show me another 24 ways…
+    href: ?page=2
+    mods: [more]

@@ -23,7 +23,7 @@ a {
 }
 
 .Header {
-  background-color: map(colors, primary, dark);
+  background-color: map(colors, primary, base);
   color: #FFF;
 }
 

@@ -1,0 +1,45 @@
+.core-search {
+  border:1px solid $color-border;
+  margin: 30px;
+}
+
+.core-search__form {
+  padding: 30px;
+  background-color: #666;
+}
+
+.core-search__selector {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+.core-field__input {
+  width: 100%;
+  border: 0;
+  border-radius: 0;
+  padding: map(spaces, medium);
+  background-color: #FFF;
+}
+
+.core-search__other {
+  padding: 30px;
+}
+
+.core-search__other ul {
+  padding: 0;
+  margin: auto;
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: row wrap;
+}
+
+.core-search__other ul li {
+  flex-flow: column;
+  padding-right: 20px;
+}
+
+.core-search__other ul li a {
+  text-decoration: underline;
+  display: inline-block;
+}

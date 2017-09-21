@@ -1,0 +1,58 @@
+.c-button {
+  @apply --typeset-ui;
+  display: inline-block;
+  padding: map(spaces, medium) map(spaces, large);
+  background-color: $color-ui-link;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+
+  &:hover {
+    background-color: $color-ui-link--hover;
+    color: white;
+  }
+
+  &:active {
+    background-color: $color-ui-link--active;
+    color: white;
+  }
+
+  @media print {
+    display: none;
+  }
+}
+
+.c-button--more {
+  width: 100%;
+}
+
+.c-button--unselected {
+  background-color:  $color-ui-link--hover;
+  color: white;
+}
+
+.c-button--options {
+  text-transform:none;
+  font-size: 1.5rem;
+  width:50%;
+  flex: 1 0 auto;
+}
+
+.c-button--submit {
+  float: right;
+}
+
+.btn-share {
+  float: left;
+
+  svg {
+    width: 20px;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+
+  svg path {
+    stroke:#999
+  }
+}

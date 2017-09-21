@@ -1,0 +1,19 @@
+.account-bar {
+  float: right;
+
+  button, a {
+    padding: 10px;
+  }
+
+  &__avatar {
+    display: inline-block;
+    img {
+      display: block;
+      width: 35px;
+      height: auto;
+      border-radius: 50%;
+      border:2px solid $color-day--dark;
+      margin: auto;
+    }
+  }
+}

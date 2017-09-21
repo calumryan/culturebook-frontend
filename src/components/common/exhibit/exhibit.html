@@ -1,0 +1,23 @@
+<main class="exhibit__main ">
+  <article class="exhibit h-entry">
+
+    <div class="exhibit__feature">
+      <img src="{{ src }}" alt="Rembrandt">
+    </div>
+    <div class="exhibit__about">
+      <header>
+        {% render "@tab" %}
+        <h1 class="exhibit__title p-name">{{ title }}</h1>
+      </header>
+
+      {%- for tab in tabs -%}
+      <section id="{{ tab.id }}" class="{{ tab.status }}">
+        <h3 class="u-hidden" id="label-{{ tab.id }}">{{ tab.title }}</h3>
+        {{ tab.content }}
+      </section>
+      {%- endfor -%}
+
+    </div>
+
+  </article>
+</main>
